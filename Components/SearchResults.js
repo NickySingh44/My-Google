@@ -13,7 +13,7 @@ const searchResults = ({ results }) => {
           return (
             <div
               key={result.link}
-              className="w-full sm:mb-8 mb-4  py-2 shadow-md"
+              className="w-full sm:mb-8 sm:w-3/4 mb-4  py-2 shadow-md"
             >
               <div className="group">
                 <a href={result.link} >
