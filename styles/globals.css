@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply p-3 rounded-md bg-gray-50 ring-gray-200 text-sm text-gray-500 hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md
+    }
+    .link{
+        @apply hover:underline cursor-pointer;
+    }
+}
